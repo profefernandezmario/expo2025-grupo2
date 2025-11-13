@@ -139,7 +139,7 @@ h3 {
 
 }
 
-@media (max-width: 568px) {
+@media (max-width: 500px) {
 
 
     .header {
@@ -182,9 +182,13 @@ h3 {
         font-size: 40px;
     }
 
+    p {
+        font: 40px;
+    }
+
     li {
 
-        font-size: 60px;
+        font-size: 40px;
         padding-left: 10px;
     }
 
@@ -207,6 +211,7 @@ h3 {
 
 }
 
-p, li {
-        font-size: 40px;
-    }
+p,
+li {
+    font-size: 40px;
+}
