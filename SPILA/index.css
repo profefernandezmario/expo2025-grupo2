@@ -1,0 +1,186 @@
+/* estilos globales de la página */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+p {
+    color: #ffffff;
+}
+
+.audiowide-regular {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.syne-mono-regular {
+  font-family: "Syne Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sections {
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+nav {
+    display: flex;
+    background-color: #000;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    flex-wrap: wrap; 
+}
+
+/* enlaces del nav */
+nav a {
+    color: #ff69b4;
+    margin: 0;
+}
+
+nav a:hover {
+    color: #ff1493;
+}
+
+.header {
+    background: linear-gradient(135deg, #00bfff, #ff69b4);
+    padding: 2rem;
+    text-align: center;
+    border-radius: black;
+}
+
+.header h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: white;
+}
+
+.container {
+    padding: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #00bfff;
+    border-bottom: 2px solid #ff69b4;
+}
+
+/* div responsiva de tarjetas */
+.beneficio-card {
+    display: inline-grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-top: 1.5rem;
+    gap: 20px;
+}
+
+/* estilo de cada tarjeta dentro del div */
+.card {
+    background: linear-gradient(45deg, #2a2a2a, #3a3a3a);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid #00bfff;
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #fa8bc2f5;
+}
+
+/* Estilo de los botones */
+a {
+    color: #dfdcdc;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    background-color: #000;
+    color: #fff;
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 1rem;
+    }
+    .sections {
+        padding: 1rem;
+    }
+    
+    .header h1 {
+        font-size: 2rem;
+    }
+    
+    nav a {
+        margin: 0;
+        font-size: 0.95rem;
+    }
+
+}  
+
+/* From Uiverse.io by michael_8553 */ 
+.button-container {
+  display: flex;
+  background-color: #777474;
+    width: 56px;
+    height: 56px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+
+.button {
+  outline: 0 !important;
+  border: 0 !important;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: all ease-in-out 0.1s;
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+}
+
+.icon {
+  font-size: 25px;
+}
+
+/* Carrusel: limitar dimensiones mínimas y máximas */
+.carousel {
+    min-width: 250px;
+    min-height: 250px;
+    max-width: 600px;
+    max-height: 600px;
+}
+.carousel .carousel-inner {
+    width: 100%;
+    min-height: 250px;
+    max-height: 600px;
+}
+.carousel .carousel-item img {
+    width: 100%;
+    height: 100%;
+    min-height: 250px;
+    max-height: 600px;
+    object-fit: cover;
+    display: block;
+}
