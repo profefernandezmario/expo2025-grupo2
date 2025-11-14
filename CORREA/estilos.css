@@ -183,12 +183,12 @@ h3 {
     }
 
     p {
-        font: 40px;
+        font: 20px;
     }
 
     li {
 
-        font-size: 40px;
+        font-size: 20px;
         padding-left: 10px;
     }
 
@@ -216,4 +216,5 @@ li {
     font-size: 13px;
 
 }
+
 
